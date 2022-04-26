@@ -1,7 +1,12 @@
-.App {
+.Component{
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
-
+.input{
+  width: 300px;
+  margin: 20px auto;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
